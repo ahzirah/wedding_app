@@ -1,0 +1,33 @@
+name: carro_weddings_ag
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.10.1
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.2.0+3
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/images/
+  - assets/images/runa_farm/
+  - assets/images/as_you_like_it/
+  - assets/images/grand_villa_heights/
+  - assets/images/lartington_hall/
+  - assets/images/le_petit _chateau/
+  - assets/images/newton_hall/
+  - assets/images/the_croft/
