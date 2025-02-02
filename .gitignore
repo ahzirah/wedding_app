@@ -31,14 +31,13 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+
 
 # Ignore large image files
 assets/images/*.jpg
 assets/images/*.jpeg
 assets/images/*.gif
 assets/videos/
-/build/
 
 
 
