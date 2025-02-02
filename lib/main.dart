@@ -33,6 +33,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: createMaterialColor(Colors.black),
+        hintColor: Colors.blueGrey,
         scaffoldBackgroundColor: Colors.white,
         inputDecorationTheme: InputDecorationTheme(
           enabledBorder: OutlineInputBorder(
