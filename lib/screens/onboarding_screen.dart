@@ -31,7 +31,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(15)),
       ),
-      backgroundColor: Colors.blueGrey[200], 
+      backgroundColor: Colors.blueGrey[100], 
       builder: (context) => Padding(
         padding: EdgeInsets.only(
           bottom: MediaQuery.of(context).viewInsets.bottom + 30, 
