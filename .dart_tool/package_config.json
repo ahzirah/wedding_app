@@ -92,6 +92,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "flutter_vector_icons",
+      "rootUri": "file:///Users/hyeladzirajames/.pub-cache/hosted/pub.dev/flutter_vector_icons-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/hyeladzirajames/development/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
@@ -302,7 +308,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-02-05T00:43:26.098586Z",
+  "generated": "2025-02-05T00:39:00.402691Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///Users/hyeladzirajames/development/flutter",
