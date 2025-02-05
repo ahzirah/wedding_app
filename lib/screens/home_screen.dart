@@ -2,27 +2,26 @@ import 'package:carro_weddings_ag/models/popular_list.dart';
 import 'package:carro_weddings_ag/models/venue_carousel.dart';
 import 'package:carro_weddings_ag/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:preload_page_view/preload_page_view.dart';
+import 'package:flutter_vector_icons/flutter_vector_icons.dart'; 
 import 'package:shared_preferences/shared_preferences.dart';
 
-
+// HomeScreen widget
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
-    State<HomeScreen> createState() => _HomeScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  late PreloadPageController _pageController; // Fixed null-safety issue
+  final PageController _pageController = PageController(viewportFraction: 0.8); 
+
   int _currentTab = 0;
   String userName = "Guest"; // Default name
 
   @override
   void initState() {
     super.initState();
-    _pageController = PreloadPageController(initialPage: 0, viewportFraction: 0.7);
     _loadUserName(); // Fetch saved user name
   }
 
@@ -50,11 +49,11 @@ class _HomeScreenState extends State<HomeScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: "", 
+            label: "Home", 
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
-            label: "",
+            label: "Favourites",
           ),
         ],
       ),
@@ -62,17 +61,17 @@ class _HomeScreenState extends State<HomeScreen> {
         physics: BouncingScrollPhysics(),
         children: <Widget>[
           Padding(
-            padding: EdgeInsets.only(left: 20.0, top: 30.0),
+            padding: EdgeInsets.only(left: 20.0, top: 10.0),
             child: Text(
               "Hi, $userName",
               style: TextStyle(
                 color: kSecondaryColor,
-                fontSize: 16.0,
+                fontSize: 20.0,
               ),
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: 20.0, top: 4.0, bottom: 40.0),
+            padding: EdgeInsets.only(left: 20.0, top: 4.0, bottom: 10.0),
             child: Text(
               "Browse a list of Venues",
               style: TextStyle(
@@ -117,7 +116,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           Padding(
-            padding: EdgeInsets.only(left: 20.0, top: 40.0, bottom: 30.0),
+            padding: EdgeInsets.only(left: 20.0, top: 10.0, bottom: 20.0),
             child: Text(
               "Our Venues",
               style: TextStyle(
@@ -126,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-          VenueCarousel(pageController: _pageController), // ✅ Venue Carousel Widget
+          VenueCarousel(pageController: _pageController), 
           SizedBox(height: 20.0),
           Container(
             padding: EdgeInsets.only(left: 20.0, top: 25.0, right: 20.0),
@@ -148,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 SizedBox(height: 20.0),
-                PopularList(), 
+                PopularList(), // List of popular venues
               ],
             ),
           ),

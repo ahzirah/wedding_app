@@ -2,10 +2,9 @@ import 'package:carro_weddings_ag/models/venue_model.dart';
 import 'package:carro_weddings_ag/screens/venue_screen.dart';
 import 'package:carro_weddings_ag/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:preload_page_view/preload_page_view.dart';
 
 class VenueCarousel extends StatefulWidget {
-  final PreloadPageController pageController;
+  final PageController pageController; 
 
   const VenueCarousel({super.key, required this.pageController});
 
@@ -18,11 +17,10 @@ class _VenueCarouselState extends State<VenueCarousel> {
   Widget build(BuildContext context) {
     return SizedBox(
       height: 400.0,
-      child: PreloadPageView.builder(
+      child: PageView.builder(
         physics: const BouncingScrollPhysics(),
-        preloadPagesCount: 3,
-        controller: widget.pageController,
-        itemCount: popularList.length,
+        controller: widget.pageController, 
+        itemCount: venuesList.length,
         itemBuilder: (BuildContext context, int index) {
           return _buildPost(context, index);
         },
