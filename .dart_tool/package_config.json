@@ -176,6 +176,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "preload_page_view",
+      "rootUri": "file:///Users/hyeladzirajames/.pub-cache/hosted/pub.dev/preload_page_view-0.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "shared_preferences",
       "rootUri": "file:///Users/hyeladzirajames/.pub-cache/hosted/pub.dev/shared_preferences-2.5.1",
       "packageUri": "lib/",
@@ -296,7 +302,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-02-02T23:28:33.489843Z",
+  "generated": "2025-02-05T00:18:56.328849Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///Users/hyeladzirajames/development/flutter",
