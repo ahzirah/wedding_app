@@ -16,7 +16,7 @@ class _VenueCarouselState extends State<VenueCarousel> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 400.0,
+      height: 380.0,
       child: PageView.builder(
         physics: const BouncingScrollPhysics(),
         controller: widget.pageController, 
@@ -29,7 +29,7 @@ class _VenueCarouselState extends State<VenueCarousel> {
   }
 
   Widget _buildPost(BuildContext context, int index) {
-    Venue venue = popularList[index];
+    Venue venue = venuesList[index];
 
     return AnimatedBuilder(
       animation: widget.pageController,
@@ -70,21 +70,7 @@ class _VenueCarouselState extends State<VenueCarousel> {
                 ),
               ),
             ),
-            Container(
-              margin: const EdgeInsets.all(10.0),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15.0),
-                gradient: LinearGradient(
-                  colors: [
-                    Colors.black,
-                    Colors.black87,
-                    Colors.black54,
-                    Colors.black38,
-                  ],
-                  stops: const [0.1, 0.4, 0.6, 0.9],
-                ),
-              ),
-            ),
+            
             Positioned(
               bottom: 30.0,
               left: 30.0,

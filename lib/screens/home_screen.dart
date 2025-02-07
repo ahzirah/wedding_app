@@ -2,7 +2,6 @@ import 'package:carro_weddings_ag/models/popular_list.dart';
 import 'package:carro_weddings_ag/models/venue_carousel.dart';
 import 'package:carro_weddings_ag/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart'; 
 import 'package:shared_preferences/shared_preferences.dart';
 
 // HomeScreen widget
@@ -65,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Text(
               "Hi, $userName",
               style: TextStyle(
-                color: kSecondaryColor,
+                color: kAccentColor,
                 fontSize: 20.0,
               ),
             ),
@@ -80,41 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Expanded(
-                child: Padding(
-                  padding: EdgeInsets.only(left: 20.0, right: 30.0),
-                  child: TextField(
-                    decoration: InputDecoration(
-                      hintText: "Search Here...",
-                      prefixIcon: Icon(Icons.search, size: 30.0),
-                      fillColor: Colors.grey[200],
-                      filled: true,
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.0),
-                        borderSide: BorderSide(color: Colors.transparent),
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              Container(
-                margin: EdgeInsets.only(right: 20.0),
-                width: 50.0,
-                height: 50.0,
-                decoration: BoxDecoration(
-                  color: kAccentColor,
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-                child: Icon(
-                  Ionicons.ios_options,
-                  color: Colors.white,
-                ),
-              ),
-            ],
-          ),
+          
           Padding(
             padding: EdgeInsets.only(left: 20.0, top: 10.0, bottom: 20.0),
             child: Text(
@@ -134,13 +99,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 topLeft: Radius.circular(20.0),
                 topRight: Radius.circular(20.0),
               ),
-              color: Colors.grey[200],
+              color: kAccentColor,
+             // color: Colors.yellow[200],
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  "Popular",
+                  "Most Popular",
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,

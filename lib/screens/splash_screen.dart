@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.black, // Black background
       body: Center(
         child: Image.asset(
-          'assets/images/splash_logo.png',
+          'assets/images/splash_logo2.png',
           width: 500,        
           height: 400,
         ),
