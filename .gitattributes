@@ -20,3 +20,5 @@ macos/ linguist-vendored
 windows/ linguist-vendored
 linux/ linguist-vendored
 Makefile linguist-vendored
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
