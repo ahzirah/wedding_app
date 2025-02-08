@@ -1,2 +1,15 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+
+# Prioritize Dart in GitHub language detection
+*.dart linguist-detectable=true
+
+# Ignore iOS/macOS build files to prevent misclassification
+*.h linguist-detectable=false
+*.m linguist-detectable=false
+*.mm linguist-detectable=false
+*.c linguist-detectable=false
+*.cpp linguist-detectable=false
+*.cc linguist-detectable=false
+*.cmake linguist-detectable=false
+Makefile linguist-detectable=false
