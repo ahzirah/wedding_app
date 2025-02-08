@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		9jm4GGCndT7QS2DDOjYW7jrF8Do=
+		UzKgbmhcdPVHfhbjULrikW14vgA=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZeZ+7vRSLy3wHC4PqqZxdHEBtGo=
+		NaugYzNp6yOv7dst7Rbx3IdoxZ4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		HSaKULarlzrIn2GbBqYqtBsNgXY=
+		8SMEjyvN0veSgtJZUwHnPHwCSsA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		mLMh1sWasiHPLzghBZZ6fcte2Dg=
+		SIxcvyCvBy+aUMqR7BQ1xNypK6k=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -256,6 +256,10 @@
 		<data>
 		wXmN3GB9lLavX3HXAGY4/Rhu/IU=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/splash_logo2.png</key>
+		<data>
+		ySDinKD5zLQcHHpxhSQaJWT2urk=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/the_croft/021224%20Katy%20and%20James%20The%20Croft%20Hotel%20Photos%20CARRO-3.jpg</key>
 		<data>
 		ieJSjoj1Y7Y04HqSq3ODAA5GGe0=
@@ -314,7 +318,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		oRjo1SwRwWdEATdfBU58TAsDbTg=
+		4dM2+O2ahRvQFF7ZXFU1N00aIIY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -661,7 +665,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKXs+mZ7hcCMFaIhpVZK+PNlhWOZHv8ncI3HvJnlOu4=
+			ftvB39TRZBrdx7sotnGw46uZWn8FPgWB7Bi9X36so/I=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -675,21 +679,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mk+yzqbWqMaaLvWsDTHpdhfCvEt7FuVgUGhNHvTkDLk=
+			KerU9RGwLXh/WoGyuS1ajiLozhADHznyUtM8M+e2LNQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qy8S7IY/fzlGKg5TY1zaHk+PIK8yxS7hMshmGtA5JeI=
+			GsFGkeaVWefqf6VnKBz8p87dhuYJ/TEa1TEEl2B18Y8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PLCRHn4Fr/abWQ95eN6i6GylahUUC+PCbOu3ojSoBXk=
+			9nTxnPfxbUTl3X6Hwc1WrwmrNIwVorFYxzOy5pG3tLw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -1028,6 +1032,13 @@
 			UdZPc3hbkNEbK/p4rmJdR6C4jt/6pINNHU36Zi1Agmo=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/splash_logo2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iV/GHiraxC4P0hVDhK0bxuO9JLw12dJzSllaIws1iq0=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/the_croft/021224%20Katy%20and%20James%20The%20Croft%20Hotel%20Photos%20CARRO-3.jpg</key>
 		<dict>
 			<key>hash2</key>
@@ -1130,7 +1141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1K5wpThTEFyGt1vyTrc6lEwDRXh9xHUzEji9mnPbWY=
+			x+e9PJXSIVKkTw1xGTgEvVzA5acxYr4KKNm9GbL9y0A=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
