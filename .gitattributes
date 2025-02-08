@@ -13,3 +13,10 @@
 *.cc linguist-detectable=false
 *.cmake linguist-detectable=false
 Makefile linguist-detectable=false
+
+ios/ linguist-vendored
+android/ linguist-vendored
+macos/ linguist-vendored
+windows/ linguist-vendored
+linux/ linguist-vendored
+Makefile linguist-vendored
