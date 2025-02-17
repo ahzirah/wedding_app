@@ -69,13 +69,7 @@ class _PopularListState extends State<PopularList> {
                               });
                             },
                           ),
-                          Text(
-                            "£${venue.price}",
-                            style: TextStyle(
-                              fontSize: 21.0,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
+                         
                         ],
                       ),
                     ],

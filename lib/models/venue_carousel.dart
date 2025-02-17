@@ -112,15 +112,7 @@ class _VenueCarouselState extends State<VenueCarousel> {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 5.0),
-                  Text(
-                    "£${venue.price}",
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 22.0,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                 
                 ],
               ),
             ),

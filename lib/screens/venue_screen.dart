@@ -136,11 +136,7 @@ class _VenueScreenState extends State<VenueScreen> {
                     ),
                   ],
                 ),
-                const SizedBox(height: 10.0),
-                Text(
-                  "\$ ${widget.venue.price}",
-                  style: const TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
-                ),
+                
                 const SizedBox(height: 20.0),
                 const Text(
                   "Venue Detail",
